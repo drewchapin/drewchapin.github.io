@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Just messing around with Jekyll trying to learn how to use it. 
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: " # the base hostname & protocol for your site, e.g. http://example.com
+timezone: America/New_York
 
 #Social Links
 twitter_username: drew_chapin
@@ -29,7 +30,7 @@ googleplus_username: drewchapin
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-primer
 plugins:
   - jekyll-feed
 
