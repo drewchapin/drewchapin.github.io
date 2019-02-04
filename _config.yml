@@ -22,19 +22,41 @@ baseurl: "" # the subpath of your site, e.g. /blog
 timezone: America/New_York
 
 #Social Links
-twitter_username: drew_chapin
-github_username:  drewchapin
-facebook_username: drew.chapin
-linkedin_username: drewchapin
-googleplus_username: drewchapin
+#twitter_username: drew_chapin
+#github_username:  drewchapin
+#facebook_username: drew.chapin
+#linkedin_username: drewchapin
+#googleplus_username: drewchapin
 
 # Build settings
 markdown: kramdown
 #theme: minima
-remote_theme: mmistakes/minimal-mistakes@4.15.1
+remote_theme: "mmistakes/minimal-mistakes@4.15.1"
 plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+	- jekyll-feed
+	- jekyll-include-cache
+  
+# Minimal Mistakes Theme
+locale: "en-US"
+name: "Drew Chapin"
+breadcrumbs: true
+search: true
+twitter:
+	username: "drew_chapin"
+facebook: 
+  username: "drew.chapin"
+author:
+  name: "Drew Chapin"
+  bio: "IT Coordinator, Programmer"
+  location: "Kentucky, USA"
+  links:
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/drewchapin"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/drew_chapin"
+   
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
