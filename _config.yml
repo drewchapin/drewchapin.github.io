@@ -29,7 +29,7 @@ googleplus_username: drewchapin
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
 
