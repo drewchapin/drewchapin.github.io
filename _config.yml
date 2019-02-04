@@ -30,9 +30,11 @@ googleplus_username: drewchapin
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes
+#theme: minima
+remote_theme: mmistakes/minimal-mistakes@4.15.1
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
