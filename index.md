@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Hello world.
+Sample Hello World program.
 
 ```cpp
 #include <stdio.h>
